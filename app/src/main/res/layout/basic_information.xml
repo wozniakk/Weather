@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:id="@+id/imageIcon"
+            android:src="@mipmap/exampleicon"
+            android:layout_alignTop="@+id/textTemperature"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/firstrun_location"
+            android:id="@+id/textLocation"
+            android:textSize="52sp"
+            android:layout_below="@+id/textPressure"
+            android:layout_alignLeft="@+id/textPressure"
+            android:layout_alignStart="@+id/textPressure" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/firstrun_coordinates"
+            android:id="@+id/textCoordinates"
+            android:layout_below="@+id/textLocation"
+            android:layout_alignLeft="@+id/textLocation"
+            android:layout_alignStart="@+id/textLocation"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/firstrun_date"
+            android:id="@+id/textDate"
+            android:textSize="22sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/firstrun_pressure"
+            android:id="@+id/textPressure"
+            android:textSize="22sp"
+            android:layout_below="@+id/textTemperature"
+            android:layout_alignLeft="@+id/textTemperature"
+            android:layout_alignStart="@+id/textTemperature" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/firstrun_temperature"
+            android:id="@+id/textTemperature"
+            android:textSize="104sp"
+            android:layout_below="@+id/textDescription"
+            android:layout_toRightOf="@+id/imageIcon"
+            android:layout_toEndOf="@+id/imageIcon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/firstrun_description"
+            android:id="@+id/textDescription"
+            android:layout_below="@+id/textDate"
+            android:layout_alignLeft="@+id/textDate"
+            android:layout_alignStart="@+id/textDate"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <string name="firstrun_date">Mon, 25 May 2015 4:53 am</string>
+    <string name="firstrun_description">Mostly Cloudy</string>
+    <string name="firstrun_temperature">20° C</string>
+    <string name="firstrun_pressure">982 hPa</string>
+    <string name="firstrun_location">Katowice</string>
+    <string name="firstrun_coordinates">71.8, -42.18</string>
+
+    <string name="firstrun_speed">9.66 km/h</string>
+    <string name="firstrun_direction">150°</string>
+    <string name="firstrun_humidity">69%</string>
+    <string name="firstrun_visibility">16.09 km</string>
+    <string name="firstrun_sunrise">5:06 am</string>
+    <string name="firstrun_sunset">12:52 pm</string>
+
+    <string name="menu_refresh">Refresh now</string>
+    <string name="menu_location">Set location</string>
+    <string name="menu_celsius">Celsius</string>
+    <string name="menu_fahrenheit">Fahrenheit</string>
+
+    <string name="additional_wind_speed">Wind speed:</string>
+    <string name="additional_wind_direction">Wind direction:</string>
+    <string name="additional_humidity">Humidity:</string>
+    <string name="additional_visibility">Visibility:</string>
+    <string name="additional_sunrise">Sunrise:</string>
+    <string name="additional_sunset">Sunset:</string>
+
+    <string name="upcoming_header">Upcoming days</string>
+    <string name="upcoming_from">From</string>
+    <string name="upcoming_to">to</string>
+
+    <string name="internet_title">No internet connection</string>
+    <string name="internet_message">Application needs active internet connection. Data may be outdated.</string>
+    <string name="internet_ok">OK</string>
+
+    <string name="location_title">Enter Your location</string>
+    <string name="location_ok">OK</string>
+    <string name="location_cancel">Cancel</string>
+
+    <string name="woeid_title">Wait</string>
+    <string name="woeid_message">Checking location.</string>
+
+    <string name="parser_title">Error</string>
+    <string name="parser_message">Location not found.</string>
+    <string name="parser_ok">OK</string>
+
+    <string name="weather_title">Wait</string>
+    <string name="weather_message">Getting weather.</string>
+</resources>
